@@ -35,5 +35,22 @@ nav a.active {
 }
 
 .special {
-	color: orange;
+	color: orange;	
+
+}
+
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
+}
+
+.point {
+	cursor: pointer;
+}
+
+.font-weight {
+	font-weight: bold;
 }

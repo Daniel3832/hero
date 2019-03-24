@@ -13,6 +13,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { LikeComponent } from './like/like.component';
+import { UnlessDirective } from './unless.directive';
+import { SizerComponent } from './sizer/sizer.component';
 
 
 @NgModule({
@@ -23,7 +25,9 @@ import { LikeComponent } from './like/like.component';
     MessagesComponent,
     DashboardComponent,
     HeroSearchComponent,
-    LikeComponent
+	LikeComponent,
+	UnlessDirective,
+	SizerComponent
   ],
   imports: [
     BrowserModule,
